@@ -7,7 +7,7 @@
 
 <script setup lang="ts">
 import CamView from 'components/webCam/camView.vue';
-import { detectImage } from 'src/composables/detectImage';
+import { useTensorFlow } from 'src/composables/useTensorFlow';
 import { ref, watch } from 'vue';
 import LiveResult from 'components/result/liveResult.vue';
 
@@ -20,7 +20,7 @@ const {
   setLiveResultSource,
   drawResult,
   result,
-} = detectImage();
+} = useTensorFlow();
 
 const fetchAndDrawResult = async () => {
   await detect();
