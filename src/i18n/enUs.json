@@ -1,0 +1,17 @@
+{
+  "dialog": {
+    "ok": "OK",
+    "cancel": "Cancel"
+  },
+  "camera": {
+    "switch": {
+      "title": "Switch camera",
+      "message": "Select a camera"
+    },
+    "liveResult": {
+      "noRef": "No Live Result reference found"
+    },
+    "noCameraSelected": "Select a camera",
+    "noDeviceId": "The selected camera is not available to be selected."
+  }
+}
